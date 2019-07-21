@@ -16,5 +16,6 @@ const deleteFromObjectByKey = (object, key) => {
 }
 
 const destructivelyDeleteFromObjectsByKey = (object, key) => {
-  
+  delete object[key]
+  return object
 }
