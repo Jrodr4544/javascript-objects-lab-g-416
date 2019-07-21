@@ -1,5 +1,5 @@
 var recipes = {}
 
-var updateObjectWithKeyAndValue = (object, key, value) => {
-  Object.assign(object, object[key] = value)
+const updateObjectWithKeyAndValue = (object, key, value) => {
+  return Object.assign(object, object[key] = value)
 }
